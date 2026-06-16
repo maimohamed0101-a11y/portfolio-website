@@ -1,6 +1,6 @@
 import type { Variants } from "framer-motion";
 
-export const EASE = [0.25, 0.46, 0.45, 0.94] as const;
+export const EASE = "easeOut" as const;
 
 export function fadeUpVariants(stagger = 0.1): Variants {
   return {

@@ -18,7 +18,7 @@ export default function Experience() {
     show: {
       opacity: 1,
       x: 0,
-      transition: { duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] },
+      transition: { duration: 0.6, ease: "easeOut" as const },
     },
   };
 
@@ -68,7 +68,6 @@ export default function Experience() {
                     className="absolute -left-8 top-1.5 w-2.5 h-2.5 rounded-full ring-2"
                     style={{
                       background: "var(--accent)",
-                      ringColor: "rgba(0,113,227,0.3)",
                       boxShadow: "0 0 0 4px rgba(0,113,227,0.15)",
                     }}
                   />
