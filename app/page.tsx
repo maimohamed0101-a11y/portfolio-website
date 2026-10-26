@@ -162,47 +162,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Notes & experiments */}
-      <section id="notes" aria-labelledby="notes-title" className="cv-auto border-t border-ink bg-ivory-deep">
-        <div className={`${wrap} py-20 lg:py-28`}>
-          <SectionHeading id="notes-title" {...s.notes} />
-          {site.notes.items.length > 0 ? (
-            <ul className="mt-12 grid gap-6 md:grid-cols-3">
-              {site.notes.items.map((n) => (
-                <li key={n.title} className="rounded-2xl border border-ink bg-ivory p-6" data-reveal>
-                  {n.status && (
-                    <p className="w-fit rounded-sm bg-mustard px-2 py-1 font-mono text-xs uppercase">
-                      {n.status === "concept" ? "Conceptual" : n.status === "prototype" ? "Prototype" : "Experiment"}
-                    </p>
-                  )}
-                  <h3 className="mt-4 font-display text-2xl font-bold">
-                    {n.href ? (
-                      <a href={n.href} className="underline-offset-4 hover:text-cobalt hover:underline">
-                        {n.title}
-                      </a>
-                    ) : (
-                      n.title
-                    )}
-                  </h3>
-                  {n.date && <p className="mt-1 font-mono text-xs text-ink-soft">{n.date}</p>}
-                  <p className="mt-3 text-ink-soft">{n.body}</p>
-                </li>
-              ))}
-            </ul>
-          ) : (
-            <div
-              className="relative mt-12 flex min-h-56 flex-col items-center justify-center rounded-2xl border-2 border-dashed border-ink/50 p-10 text-center"
-              data-reveal
-            >
-              <p className="font-mono text-xs uppercase tracking-[0.18em] text-ink-soft">Coming soon</p>
-              <p className="mt-3 font-display text-3xl font-bold">{site.notes.emptyTitle}</p>
-              <p className="mt-2 text-ink-soft">{site.notes.emptyBody}</p>
-              <Star className="absolute right-6 top-6 size-8 text-mustard" />
-            </div>
-          )}
-        </div>
-      </section>
-
       {/* Contact */}
       <section id="contact" aria-labelledby="contact-title" className="cv-auto border-t border-ink">
         <div className={`${wrap} py-20 lg:py-28`}>

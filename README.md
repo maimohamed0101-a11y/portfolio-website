@@ -14,7 +14,7 @@ All of the text on the site lives in `content/`. You only need to edit these fil
 
 | File | What it holds |
 | --- | --- |
-| `content/site.json` | Name, title, location, email, phone, LinkedIn, CV link, hero text, About paragraphs, section headings, My Approach steps, Notes and Experiments |
+| `content/site.json` | Name, title, location, email, phone, LinkedIn, CV link, hero text, About paragraphs, section headings, My Approach steps |
 | `content/projects.json` | The four Selected Work projects. Each one also generates its case study at `/work/<slug>` |
 | `content/capabilities.json` | The three capability cards |
 | `content/experience.json` | Experience timeline, tools, training, education |
@@ -29,8 +29,6 @@ Some project fields are optional and only show up once you fill them in:
 - `disciplines`: any of `Product Analytics`, `Market Research`, `Product Management`. These drive the filter on the homepage.
 
 To add a project, add an object to `projects.json` with a new `slug`. Its route is created at build time.
-To publish a note, add `{ "title", "body", "date"?, "href"?, "status"? }` to `notes.items` in `site.json`.
-While the list is empty, the section shows a "coming soon" message.
 
 ## Run it locally
 

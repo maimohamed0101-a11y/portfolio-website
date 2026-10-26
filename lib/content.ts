@@ -41,15 +41,6 @@ export type Project = {
 
 export type Link = { label: string; href: string };
 
-export type Note = {
-  title: string;
-  date?: string;
-  body: string;
-  href?: string;
-  /** Label conceptual work clearly. */
-  status?: "concept" | "prototype" | "experiment";
-};
-
 export type Site = {
   name: string;
   title: string;
@@ -69,12 +60,11 @@ export type Site = {
     ticker: string[];
   };
   sections: Record<
-    "work" | "about" | "capabilities" | "approach" | "experience" | "notes" | "contact",
+    "work" | "about" | "capabilities" | "approach" | "experience" | "contact",
     { eyebrow: string; title: string; intro?: string }
   >;
   about: { paragraphs: string[] };
   approach: { title: string; body: string }[];
-  notes: { emptyTitle: string; emptyBody: string; items: Note[] };
 };
 
 export type Capability = {
