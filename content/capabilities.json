@@ -1,0 +1,23 @@
+[
+  {
+    "id": "product-analytics",
+    "title": "Product Analytics",
+    "body": "Funnels, drop-offs, user journeys, and KPI dashboards using GA4, Google Analytics, Microsoft Clarity, and Power BI.",
+    "tags": ["GA4", "Clarity", "Power BI", "Adjust"],
+    "shape": "circle"
+  },
+  {
+    "id": "market-research",
+    "title": "Market Research",
+    "body": "Competitive analysis, consumer surveys, market sizing, buyer personas, and industry analysis.",
+    "tags": ["Competitor analysis", "Surveys", "Industry analysis"],
+    "shape": "square"
+  },
+  {
+    "id": "product-management",
+    "title": "Product Management",
+    "body": "Product discovery, user stories, acceptance criteria, product documentation, and roadmapping.",
+    "tags": ["User stories", "Discovery", "Jira", "Notion", "Trello"],
+    "shape": "triangle"
+  }
+]

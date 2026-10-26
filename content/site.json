@@ -1,0 +1,56 @@
+{
+  "name": "Mai Mohamed",
+  "title": "Product Analyst / Owner",
+  "location": "Tahrir, Cairo, Egypt",
+  "email": "mai.mohamed0101@gmail.com",
+  "phone": { "display": "01145086047", "href": "tel:+201145086047" },
+  "linkedin": "https://www.linkedin.com/in/mai-mohamed-elhatty/",
+  "cv": "https://drive.google.com/file/d/1qVHiM85UsC1umikE8Gi1oMfMJLa2JsBg/view?usp=sharing",
+  "seo": {
+    "title": "Mai Mohamed — Product Analyst / Owner",
+    "description": "Mai Mohamed is a Product Analyst / Owner in Cairo working across product analytics, market research, and product management."
+  },
+  "nav": [
+    { "label": "Work", "href": "/#work" },
+    { "label": "About", "href": "/#about" },
+    { "label": "Capabilities", "href": "/#capabilities" },
+    { "label": "Approach", "href": "/#approach" },
+    { "label": "Experience", "href": "/#experience" },
+    { "label": "Notes", "href": "/#notes" },
+    { "label": "Contact", "href": "/#contact" }
+  ],
+  "hero": {
+    "statement": "I turn user behaviour into product decisions.",
+    "highlight": "product decisions.",
+    "supporting": "I work across product analytics, market research, and product management. I analyse how people move through apps and funnels, research the markets behind them, and write the user stories and specs that get features built.",
+    "primaryCta": { "label": "See selected work", "href": "#work" },
+    "secondaryCta": { "label": "Get in touch", "href": "#contact" },
+    "ticker": ["Product Analytics", "Market Research", "Product Management"]
+  },
+  "sections": {
+    "work": { "eyebrow": "01 — Selected work", "title": "Selected work", "intro": "Four engagements across analytics, research, and product. Each one has its own case study." },
+    "about": { "eyebrow": "02 — About", "title": "About" },
+    "capabilities": { "eyebrow": "03 — Capabilities", "title": "Capabilities" },
+    "approach": { "eyebrow": "04 — My approach", "title": "My approach", "intro": "Four steps, from behaviour to a decision the team can act on." },
+    "experience": { "eyebrow": "05 — Experience & tools", "title": "Experience and tools" },
+    "notes": { "eyebrow": "06 — Notes & experiments", "title": "Notes and experiments" },
+    "contact": { "eyebrow": "07 — Contact", "title": "Let’s talk.", "intro": "Send a message using the form, or reach me directly." }
+  },
+  "about": {
+    "paragraphs": [
+      "I'm Mai Mohamed, a Product Analyst / Owner based in Cairo. My background is in business administration (Cairo University, English section), and my work has moved from social media and customer service into research, analytics, and product.",
+      "Since 2021 I have analysed websites and apps with GA, GA4, Adjust, and Microsoft Clarity, researched markets across Egypt and Saudi Arabia, and written user stories and acceptance criteria for development teams."
+    ]
+  },
+  "approach": [
+    { "title": "Understand the behaviour", "body": "How users move through the product, including sessions, funnels, and drop-offs." },
+    { "title": "Check the market and the customer", "body": "Pair the numbers with research on competitors, consumer needs, and customer feedback." },
+    { "title": "Turn it into clear requirements", "body": "Write user stories and acceptance criteria developers can build from, and keep documentation current." },
+    { "title": "Measure and report", "body": "Track KPIs in dashboards and report results so product and marketing teams can act on them." }
+  ],
+  "notes": {
+    "emptyTitle": "Nothing published yet.",
+    "emptyBody": "Notes and experiments will appear here.",
+    "items": []
+  }
+}

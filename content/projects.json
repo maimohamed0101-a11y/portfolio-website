@@ -1,0 +1,87 @@
+[
+  {
+    "slug": "waffarha",
+    "client": "Waffarha",
+    "role": "Product Analyst / Owner",
+    "period": "02/2026 – present",
+    "title": "Product analytics and KPI dashboards.",
+    "summary": "Product work on a platform serving 1M+ users.",
+    "disciplines": ["Product Analytics", "Product Management"],
+    "color": "cobalt",
+    "responsibilities": [
+      "Contributed to product initiatives supporting a platform serving 1M+ users.",
+      "Delivered product insights that informed feature prioritisation, customer experience improvements, and growth strategies.",
+      "Established KPI tracking frameworks and performance dashboards to improve product visibility and decision-making.",
+      "Collaborated cross-functionally to launch and optimise product features aimed at engagement and retention."
+    ],
+    "tools": [],
+    "additionalRoles": []
+  },
+  {
+    "slug": "chefaa",
+    "client": "Chefaa",
+    "role": "Customer Advocate Specialist",
+    "period": "2024 – 2025",
+    "title": "Funnel analysis and voice of the customer.",
+    "summary": "Funnel and journey analysis with GA4 and Microsoft Clarity, plus a period as Acting Product Owner in 2025.",
+    "disciplines": ["Product Analytics", "Product Management"],
+    "color": "pink",
+    "responsibilities": [
+      "Analysed user behaviour, journeys, and conversion funnels using GA4 and Microsoft Clarity to find drop-offs and optimisation opportunities.",
+      "Acted as the voice of the customer, making sure feedback was heard and addressed.",
+      "Documented customer interactions, feedback, and recurring issues.",
+      "Identified patterns in customer behaviour and suggested process and product improvements."
+    ],
+    "tools": ["GA4", "Microsoft Clarity"],
+    "additionalRoles": [
+      {
+        "role": "Acting Product Owner",
+        "period": "2025",
+        "location": "Cairo",
+        "responsibilities": [
+          "Helped define and prioritise a new product feature.",
+          "Wrote user stories and acceptance criteria for developers.",
+          "Maintained product documentation and specifications."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "masheed",
+    "client": "Masheed",
+    "role": "Freelance Marketing Researcher",
+    "period": "11/2024 – 05/2025",
+    "location": "Saudi Arabia",
+    "title": "Market research for an expansion strategy.",
+    "summary": "Qualitative and quantitative research to support an expansion strategy in Saudi Arabia.",
+    "disciplines": ["Market Research"],
+    "color": "mustard",
+    "responsibilities": [
+      "Conducted qualitative and quantitative market research to support the expansion strategy.",
+      "Analysed customer behaviour, market trends, and competitor positioning to identify opportunities and market gaps.",
+      "Delivered insights on customer needs, pricing models, and digital platform enhancements.",
+      "Compiled reports covering market size, buyer personas, and segment dynamics to inform product and marketing decisions."
+    ],
+    "tools": [],
+    "additionalRoles": []
+  },
+  {
+    "slug": "thoria",
+    "client": "Thoria",
+    "role": "Market Researcher & Project Manager (freelance)",
+    "period": "07/2024",
+    "engagement": "Three-month freelance project",
+    "title": "Market research and product discovery.",
+    "summary": "Market research, product discovery, and the company’s first product.",
+    "disciplines": ["Market Research", "Product Management"],
+    "color": "ink",
+    "responsibilities": [
+      "Worked as a market researcher and project manager, and developed the first product for the company.",
+      "Conducted in-depth market research and product discovery research.",
+      "Analysed consumer behaviour and tracked the latest trends in the industry.",
+      "Provided strategic recommendations on product improvements, marketing campaigns, and a new product launch, based on the research."
+    ],
+    "tools": [],
+    "additionalRoles": []
+  }
+]

@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ivory: #fdf7ed;
+  --color-ivory-deep: #f6ecda;
+  --color-ink: #1e1e1e;
+  --color-ink-soft: #4a4744;
+  --color-pink: #e83e8c;
+  --color-pink-tint: #fbd5e6;
+  --color-cobalt: #2455ff;
+  --color-cobalt-deep: #1a3fcc;
+  --color-mustard: #e6c229;
+  --color-mustard-tint: #f7e9a8;
+
+  --font-display: "Space Grotesk Variable", "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Inter Variable", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono Variable", "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --shadow-hard: 4px 4px 0 0 var(--color-ink);
+  --shadow-hard-lg: 8px 8px 0 0 var(--color-ink);
+
+  --animate-marquee: marquee 40s linear infinite;
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5.5rem;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    background-color: var(--color-ivory);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+  }
+  ::selection { background: var(--color-mustard); color: var(--color-ink); }
+
+  :focus-visible {
+    outline: 3px solid var(--color-cobalt);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+  .on-dark :focus-visible { outline-color: var(--color-mustard); }
+}
+
+@layer components {
+  /* Thin rule grid used behind the hero */
+  .bg-grid {
+    background-image:
+      linear-gradient(to right, color-mix(in srgb, var(--color-ink) 7%, transparent) 1px, transparent 1px),
+      linear-gradient(to bottom, color-mix(in srgb, var(--color-ink) 7%, transparent) 1px, transparent 1px);
+    background-size: 48px 48px;
+  }
+  .text-outline {
+    color: transparent;
+    -webkit-text-stroke: 1.5px var(--color-ink);
+  }
+}
+
+/* Scroll reveal: only hidden when JS is running (html.js) so content never disappears without it. */
+.js [data-reveal] {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.7s cubic-bezier(0.2, 0.7, 0.2, 1), transform 0.7s cubic-bezier(0.2, 0.7, 0.2, 1);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+.js [data-reveal].is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .js [data-reveal] { opacity: 1; transform: none; transition: none; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Skip rendering work for off-screen sections until they approach the viewport. */
+.cv-auto {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 1000px;
+}

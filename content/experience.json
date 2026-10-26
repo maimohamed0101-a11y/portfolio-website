@@ -1,0 +1,39 @@
+{
+  "timeline": [
+    { "period": "02/2026 – present", "role": "Product Analyst / Owner", "organisation": "Waffarha", "current": true },
+    { "period": "2025", "role": "Acting Product Owner", "organisation": "Chefaa", "location": "Cairo" },
+    { "period": "2024 – 2025", "role": "Customer Advocate Specialist", "organisation": "Chefaa" },
+    { "period": "2021 – 2024", "role": "Research Executive", "organisation": "Chefaa" },
+    { "period": "11/2024 – 05/2025", "role": "Freelance Marketing Researcher", "organisation": "Masheed", "location": "Saudi Arabia" },
+    { "period": "07/2024", "role": "Market Research and Project Management (freelance)", "organisation": "Thoria" },
+    { "period": "07/2019", "role": "Social Media Specialist", "organisation": "Harvest courses" }
+  ],
+  "tools": [
+    "Google Analytics",
+    "GA4",
+    "Microsoft Clarity",
+    "Adjust",
+    "Power BI",
+    "Jira",
+    "Notion",
+    "Trello",
+    "Microsoft Office"
+  ],
+  "training": [
+    { "name": "Data analysis diploma", "provider": "Tech Mind" },
+    { "name": "Online business analysis course" },
+    { "name": "Become a Product Manager", "provider": "Udemy" },
+    { "name": "Product Launch micro certificate", "provider": "Product School" },
+    { "name": "Product Discovery micro certificate", "provider": "Product School" },
+    { "name": "Product Roadmapping micro certificate", "provider": "Product School" },
+    { "name": "Product management course", "provider": "UN Women and Carerha" },
+    { "name": "Business analysis, Market research and analysis, Operations analysis", "provider": "Coursera" },
+    { "name": "Excel advanced training", "provider": "El Assal" }
+  ],
+  "education": {
+    "degree": "Business Administration",
+    "institution": "Cairo University",
+    "detail": "Faculty of Commerce, English section",
+    "grade": "GPA: Very Good"
+  }
+}
